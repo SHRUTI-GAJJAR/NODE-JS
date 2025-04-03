@@ -6,7 +6,7 @@ const Person = require('./../models/Persons');
 //Person Information:
 
 //Save data:
-router.post('/', async (req, resp) => {
+router.post('/signup', async (req, resp) => {
     try {
         const data = req.body;
 
