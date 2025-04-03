@@ -40,8 +40,8 @@ app.get('/api/content', async (req,resp)=>{
     }
 })
 
-app.listen(5000,() =>{
-    console.log("server is runnig on port :5000");
+app.listen(6000,() =>{
+    console.log("server is runnig on port :6000");
 })
 
 
