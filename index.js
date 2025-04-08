@@ -30,7 +30,7 @@ app.use(bodyParser.json());
 
 //Person Routers 
 const personRouters = require('./Routers/personroute');
-app.use('/person', localAuthMiddleware ,personRouters);
+app.use('/person',personRouters);
 
 //Menu Routers 
 const menuRouters = require('./Routers/menuroute');
